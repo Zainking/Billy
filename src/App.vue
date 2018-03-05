@@ -107,5 +107,6 @@ p {
 .candles {
   font-size: 2em;
   text-indent: 0;
+  word-wrap: break-word;
 }
 </style>
