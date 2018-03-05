@@ -71,8 +71,7 @@ body {
   width: 100%;
 }
 .Billy {
-  width: 100%;
-  max-width: 395px;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
 }
