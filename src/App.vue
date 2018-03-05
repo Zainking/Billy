@@ -46,11 +46,11 @@ export default {
     $.get('http://wzy88665.gotoip55.com/billyApi/billyApi.php', (data) => {
       data = JSON.parse(data)[0]
       this.candleNum = parseInt(data)
-      console.log(this)
     })
     if (window.localStorage.getItem("isCandled")) {
       this.isCandled = true
     }
+    console.log('如果你也同样信仰哲学，欢迎邮箱联系我：zainking@foxmail.com')
   }
 }
 </script>
