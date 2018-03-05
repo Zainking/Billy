@@ -70,7 +70,7 @@ body {
   max-width: 600px;
   width: 100%;
 }
-.Billy {
+.Billy img{
   max-width: 100%;
   display: block;
   margin: 0 auto;
