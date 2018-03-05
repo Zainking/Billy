@@ -108,5 +108,6 @@ p {
   font-size: 2em;
   text-indent: 0;
   word-wrap: break-word;
+  word-break: break-all;
 }
 </style>
