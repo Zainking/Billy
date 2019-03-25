@@ -2,14 +2,14 @@
   <div id="app">
     <h1>比利·海灵顿</h1>
     <h2>Billy Herrington</h2>
-    <div class="Billy"><img src="http://ov4zgil7v.bkt.clouddn.com/Billy.jpg" alt="Billy"></div>
+    <div class="Billy"><img src="https://static.zain.red/47A70A898214C6F41A65A5538CDF04028DCD7480_size192_w600_h683.jpeg" alt="Billy"></div>
     <p>比利海灵顿生于1969年7月14日，是美国知名㚻片（GV）演员之一，早年由于在他拍过的GV当中有许多莫名其妙的摔跤戏，又在途中发出许多奇奇怪怪的声音，因此自然就成为Nico动画上面的好素材。</p>
     <p>比利海灵顿因为其视频素材的广泛流行，很快被中日宅圈内的网友熟知，日本网友因其健硕的身材称其为“ANIKI”（兄贵，大哥的意思），或“森の妖精”，随后比利的事迹与视频传入A站并影响至今。</p>     
     <p>作为A/B站鬼畜区史诗级素材主演之一，与哲♂学文化的发起者之一，比利海灵顿深受国内外二次元网友的喜爱，国内粉丝一般称其为王♂。</p>
     <p>比利海灵顿于2018年3月3日在一场车祸中去世，年仅48岁。比利海灵顿的母亲与导演分别占在FB与推特上确认了其去世的消息。英文维基百科也随后更新了比利海灵顿词条的生卒年月。</p>
     <div><a href="javascript:;" class="btn">{{isCandled ? '你已经点蜡' : isCandleing ? '正在点蜡' : '🕯️为王点蜡'}}</a></div>
     <h2 class='title'>共有<span class="candleNum">{{candleNum}}</span>人为他献上了蜡烛</h2>
-    <p class="candles"><span v-for="n in candleNum">🕯️</span></p>
+    <p class="candles"><span v-for="n in candleNum" v-bind:key="n">🕯️</span></p>
   </div>
 </template>
 
